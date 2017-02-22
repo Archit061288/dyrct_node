@@ -1,0 +1,16 @@
+{
+  "name": "dyrct_node",
+  "version": "1.0.0",
+  "description": "App with backend as well as frontend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4"
+  }
+}
