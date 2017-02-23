@@ -6,6 +6,7 @@ module.exports = function(){
 	// Return middleware that only parse JSON. 
 	app.use(bodyParser.json())	
 
+	require('../app/routes/userroutes.js')(app, express);
 	return app;
 }
 
