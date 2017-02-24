@@ -7,8 +7,10 @@ var usermodelSchema = mongoose.Schema({
     mobnumber: String,
     otpcode: Number,
     otp_verified: Boolean,
-    password: mongoose.Schema.Types.Mixed,
-    confirmpassword: mongoose.Schema.Types.Mixed
+    password: String,
+    confirmpassword: String,
+    status:Number,
+    token:String
 })
 
 var users = mongoose.model("User",usermodelSchema);
